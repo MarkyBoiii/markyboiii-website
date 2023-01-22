@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: #0e1c38;
+
+}
+
+/* -- HEADER SECTION HERE -- */
+
+header {
+    width: auto;
+    height: auto;
+    padding: 25px 50px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header #header_title {
+    color: #f2b53c;
+    font-size: 25px;
+}
+
+.header_links ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 25px;
+}
+
+.header_links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #b5b5b5;
+    margin:  25px;
+    padding: 5px;
+    position: relative;
+}
+
+.header_links a:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    background-color: #f2b53c;
+    transition: 0.5s;
+}
+
+.header_links a:hover::after {
+    width: 100%;
+    transform-origin: bottom right;
+}
+
+/* -- END HEADER SECTION -- */
+
+/* -- ABOUT ME SECTION HERE -- */
+
+#about_me {
+    padding: 80px;
+}
+
+.about_me_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_me_img {
+    flex-basis: 35%;
+}
+
+
+.about_me_img img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.about_me_text {
+    flex-basis: 60%;
+    color:#b5b5b5
+}
+
+.about_me_text .about_me_text_title {
+    font-size: 50px;
+    color:#f2b53c;
+    margin-bottom: 50px;
+}
+
+.about_me_text .about_me_text_body {
+    padding-bottom: 20px;
+}
+
+.about_me_text ul li{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    list-style-type: square;
+}
+
+/* -- END ABOUT ME SECTION -- */
