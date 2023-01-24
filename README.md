@@ -18,7 +18,7 @@
 -Multiple images, each with descriptive alt text.
 -Links to internal sections of the website.
 -Semantic HTML tags like Header is used.
-
+-HTML Links open to a new tab.
 
 
 (b) CSS features
@@ -44,5 +44,4 @@ https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6330s is the one I referred to the
 N/A
 
 6. Is there anything special we need to know in order to run your code?
- It is designed to be responsive to a certain extent -- iPhones, iPads and any mobile with max width of 600px should be able to see a generally well-designed page.
- However, it is meant to be seen in the default browser screen size.
+N/A
