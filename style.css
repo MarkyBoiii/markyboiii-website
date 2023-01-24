@@ -14,7 +14,7 @@ body {
     padding: 10px 3%;
 }
 
-/* -- HEADER SECTION HERE -- */
+/* -------- HEADER SECTION HERE -------- */
 
 header {
     width: auto;
@@ -62,9 +62,9 @@ header #header_title {
     transform-origin: bottom right;
 }
 
-/* -- END HEADER SECTION -- */
+/* -------- END HEADER SECTION -------- */
 
-/* -- ABOUT ME SECTION HERE -- */
+/* -------- ABOUT ME SECTION HERE -------- */
 
 #about_me {
     padding-top: 50px;
@@ -116,7 +116,7 @@ header #header_title {
 .social_media_icons .social_media_icons_horizontal li {
     display: inline-block;
     padding: 20px 20px;
-    margin: 50px;
+    margin: 30px;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
@@ -134,9 +134,9 @@ header #header_title {
     transform: scale(1.3);
 }
 
-/* -- END ABOUT ME SECTION -- */
+/* -------- END ABOUT ME SECTION -------- */
 
-/* -- PORTFOLIO SECTION -- */
+/* -------- PORTFOLIO SECTION -------- */
 
 #game_portfolio .portfolio_text_title {
     font-size: 50px;
@@ -159,7 +159,7 @@ header #header_title {
 }
 
 .game img {
-    width: 100%;
+    max-width: 100%;
     height: 500px;
     border-radius: 10px;
     display: block;
@@ -209,3 +209,54 @@ header #header_title {
     height: 100%;
 }
 
+/* -------- END PORTFOLIO SECTION -------- */
+
+/* -------- MEDIA QUERIES FOR RESPONSIVITY -------- */
+
+@media only screen and (max-width: 1000px)
+{
+    header #header_title {
+        font-size: 15px;
+    }
+
+    .header_links a {
+        padding: 0px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header_links ul li {
+        margin: 10px;
+    }
+
+    .about_me_img, .about_me_text {
+        flex-basis: 100%;
+    }
+
+    .about_me_text .about_me_text_title {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .about_me_text_body {
+        font-size: 15px;
+    }
+
+    .about_me_text ul li {
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .social_media_icons .social_media_icons_horizontal li {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .social_media_icons .social_media_icons_horizontal li a {
+        font-size: 50px;
+    }
+}
