@@ -217,6 +217,19 @@ header #header_title {
 
 /* -------- END PORTFOLIO SECTION -------- */
 
+/* -------- RESUME SECTION ------- */
+
+#resume {
+    background-color: #080808;
+}
+
+.resume_text_title {
+    color: #f2b53c;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* -------- MEDIA QUERIES FOR RESPONSIVITY -------- */
 
 @media only screen and (max-width: 1000px)
