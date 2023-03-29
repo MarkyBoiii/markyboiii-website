@@ -13,6 +13,14 @@ body {
     padding: 10px 3%;
 }
 
+.section_title {
+    color: #f2b53c;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 /* -------- HEADER SECTION HERE -------- */
 
 header {
@@ -145,13 +153,6 @@ header #header_title {
     padding-bottom: 40px;
 }
 
-#game_portfolio .portfolio_text_title {
-    font-size: 50px;
-    color:#f2b53c;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .games_list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -216,19 +217,21 @@ header #header_title {
     height: 100%;
 }
 
-/* -------- END PORTFOLIO SECTION -------- */
+/* -------- END GAME PORTFOLIO SECTION -------- */
+
+/* -------- OTHER PROJECTS SECTION -------- */
+#other_projects {
+    background-color: #080808;
+}
+
+.project_name {
+    padding: 20px;
+}
 
 /* -------- RESUME SECTION ------- */
 
 #resume {
-    background-color: #080808;
-}
-
-.resume_text_title {
-    color: #f2b53c;
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color: #192743;
 }
 
 /* -------- MEDIA QUERIES FOR RESPONSIVITY -------- */
